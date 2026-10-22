@@ -180,7 +180,7 @@ def evaluate(cfg: dict, output: Path):
     pred.to_csv(output / "predictions.csv", index=False)
     fm.to_csv(output / "fold_metrics.csv", index=False)
     unique_predictions(pred).groupby(["asset", "model"]).absolute_error.agg(["count", "mean"]).to_csv(output / "unique_date_mae.csv")
-    versions = {n: importlib.metadata.version(n) for n in ["numpy", "pandas", "scipy", "lightgbm", "arch"]}
+    versions = {n: importlib.metadata.version(n) for n in ["numpy", "pandas", "scipy", "scikit-learn", "lightgbm", "arch", "statsmodels"]}
     meta = dict(status="new_reconstruction_not_original_paper_outputs", config=cfg, inputs=inputs,
                 python=platform.python_version(), packages=versions,
                 forecast_origin="after_close", evaluation="overlapping_fold_metrics; earliest_fold_per_date_for_date_losses")
