@@ -1,0 +1,8 @@
+# Direct dependency versions used for the synthetic validation; not the original environment.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+lightgbm==4.5.0
+arch==7.2.0
+yfinance==0.2.54
+statsmodels==0.15.0

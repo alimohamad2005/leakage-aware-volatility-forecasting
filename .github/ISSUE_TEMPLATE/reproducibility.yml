@@ -1,0 +1,21 @@
+name: Reproducibility question
+description: Report a numerical discrepancy or an execution problem.
+title: '[Reproducibility] '
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question or discrepancy
+      description: Describe the command, expected result, and observed behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and configuration
+      description: Include Python/package versions and configuration; remove credentials or personal paths.
+  - type: textarea
+    id: data
+    attributes:
+      label: Input evidence
+      description: Include input hashes, date ranges, vendor/adjustment policy, or indicate synthetic data. Do not upload restricted market data.

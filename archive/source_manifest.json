@@ -1,0 +1,76 @@
+{
+  "source_commit": "987ec47599f307cb69ddb852a710d0c1c1c8af02",
+  "source_date": "2026-08-27",
+  "files": [
+    {
+      "path": ".gitignore",
+      "git_blob_sha": "8787ef5e743d90a80e4e29e7449328582d2b6436",
+      "bytes": 140
+    },
+    {
+      "path": ".zenodo.json",
+      "git_blob_sha": "bdab986221ae282cf6b2a2ec1d26ed0bb5d47d9c",
+      "bytes": 670
+    },
+    {
+      "path": "CITATION.cff",
+      "git_blob_sha": "1ead831f4ca6b68a8e4e56c8cb03dd32a81de3ed",
+      "bytes": 526
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha": "f7244e1db8ea2af8a70b96a96264b6614228f1dc",
+      "bytes": 1102
+    },
+    {
+      "path": "MANIFEST.sha256",
+      "git_blob_sha": "611eb98ef829b2844c357f9b2defcf5917b395b4",
+      "bytes": 1100
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha": "2fa76399e2971e3c254a878293c679a8266177a8",
+      "bytes": 1969
+    },
+    {
+      "path": "config.json",
+      "git_blob_sha": "bcb4479ee129df4b4a538e562625303a0e611dc1",
+      "bytes": 689
+    },
+    {
+      "path": "outputs/fold_metrics.csv",
+      "git_blob_sha": "74172f80fcf2d769d9f0451ba88988e9426ce21e",
+      "bytes": 66
+    },
+    {
+      "path": "outputs/predictions.csv",
+      "git_blob_sha": "f95fa0f33d499325e2dff217ab6e1e66e4efa145",
+      "bytes": 55
+    },
+    {
+      "path": "outputs/stationary_bootstrap_tests.csv",
+      "git_blob_sha": "bbacbb239ec0027d62336f8de5886cff83c9cc47",
+      "bytes": 70
+    },
+    {
+      "path": "reported_results_audit.csv",
+      "git_blob_sha": "9bc4d84c39bfa2723f6b95bf76a5da790d4e6d8d",
+      "bytes": 616
+    },
+    {
+      "path": "requirements.txt",
+      "git_blob_sha": "5ffebfffdce1d2c180ac64a626c586a5e8b94378",
+      "bytes": 133
+    },
+    {
+      "path": "run_reproduction.py",
+      "git_blob_sha": "1e3b4a2a8d083ceb820a0b504b0d33f75e649235",
+      "bytes": 13266
+    },
+    {
+      "path": "verification_status.md",
+      "git_blob_sha": "3f3433137c05e89362928d73bfa7da4fb2884182",
+      "bytes": 977
+    }
+  ]
+}

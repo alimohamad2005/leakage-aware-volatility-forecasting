@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "Please cite the published BCT article when using this research companion."
+title: "Leakage-Aware Volatility Forecasting: BCT Research Companion"
+type: software
+version: 0.1.0
+date-released: 2026-10-22
+license: MIT
+url: "https://github.com/alimohamad2005/leakage-aware-volatility-forecasting"
+repository-code: "https://github.com/alimohamad2005/leakage-aware-volatility-forecasting"
+authors:
+  - family-names: Javadzadeh
+    given-names: Seyed Reza
+    affiliation: Shahrood University of Technology
+  - family-names: Siahkarzadeh
+    given-names: Ali Mohammad
+    affiliation: Shahrood University of Technology
+preferred-citation:
+  type: article
+  title: "Leakage-Aware Volatility Forecasting for Business Risk Management"
+  authors:
+    - family-names: Javadzadeh
+      given-names: Seyed Reza
+    - family-names: Siahkarzadeh
+      given-names: Ali Mohammad
+    - family-names: Parhami
+      given-names: Pouria
+    - family-names: Babaee Khobdeh
+      given-names: Soroosh
+    - family-names: Rohani
+      given-names: Faezeh
+    - family-names: Mueller
+      given-names: Andreas
+  journal: "Journal of Business, Communication & Technology"
+  year: 2026
+  volume: 5
+  issue: 2
+  start: 1
+  end: 18
+  doi: "10.56632/bct.2026.5201"
+  url: "https://www.bctjournal.com/article_652.html"

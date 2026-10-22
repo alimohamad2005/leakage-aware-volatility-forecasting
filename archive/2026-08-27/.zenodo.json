@@ -1,0 +1,12 @@
+{
+  "title": "Leakage-Aware Volatility Forecasting Reproducibility Package",
+  "upload_type": "software",
+  "description": "Code and fixed configuration for purged walk-forward volatility forecasting, LightGBM, GARCH, persistence, LSTM, feature-group ablations, and dependence-aware bootstrap tests.",
+  "creators": [
+    {"name": "Javadzadeh, Reza", "affiliation": "Shahrood University of Technology"},
+    {"name": "Siahkarzadeh, Ali Mohammad", "affiliation": "Shahrood University of Technology"}
+  ],
+  "keywords": ["volatility forecasting", "LightGBM", "LSTM", "walk-forward validation", "data leakage", "ablation"],
+  "license": "MIT",
+  "access_right": "closed"
+}

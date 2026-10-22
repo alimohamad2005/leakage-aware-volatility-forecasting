@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying article."
+title: "Leakage-Aware Volatility Forecasting Reproducibility Package"
+type: software
+authors:
+  - family-names: Javadzadeh
+    given-names: Reza
+    email: reza.jzadeh.ml@gmail.com
+    affiliation: Shahrood University of Technology
+  - family-names: Siahkarzadeh
+    given-names: Ali Mohammad
+    email: ali.siahkarzadeh@gmail.com
+    affiliation: Shahrood University of Technology
+version: 1.0.0
+date-released: 2026-08-27
+license: MIT

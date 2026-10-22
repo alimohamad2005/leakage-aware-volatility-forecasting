@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "assets": ["SPY", "AAPL", "MSFT", "GOOGL", "AMZN", "BTC-USD"],
+  "start": "2015-01-01",
+  "end": "2025-01-01",
+  "data_dir": "data",
+  "train_window": 756,
+  "test_window": 63,
+  "step": 21,
+  "horizon": 5,
+  "inner_val_window": 63,
+  "early_stopping_rounds": 30,
+  "lightgbm": {
+    "objective": "huber",
+    "n_estimators": 300,
+    "learning_rate": 0.03,
+    "num_leaves": 31,
+    "max_depth": 4,
+    "min_child_samples": 20,
+    "subsample": 0.8,
+    "subsample_freq": 1,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.1,
+    "reg_lambda": 0.1
+  }
+}

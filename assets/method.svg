@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="t d">
+<title id="t">From daily observations to forecast evaluation</title>
+<desc id="d">Four steps: observe bars, build causal features, fit with purged walk-forward validation, and evaluate forecasts. Future returns are used only to score forecasts.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#6A8E9B"/></marker></defs>
+<rect width="1200" height="250" rx="16" fill="#F0F5F8"/>
+<g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="32" y="38" font-size="14" fill="#597481" letter-spacing="2">FORECAST FIRST. SCORE WITH FUTURE OUTCOMES.</text>
+<g fill="#FFF" stroke="#D7E3EA"><rect x="32" y="65" width="246" height="126" rx="12"/><rect x="328" y="65" width="246" height="126" rx="12"/><rect x="624" y="65" width="246" height="126" rx="12"/><rect x="920" y="65" width="248" height="126" rx="12"/></g>
+<g fill="#247B83" font-size="13" font-weight="bold"><text x="54" y="93">01 / OBSERVE</text><text x="350" y="93">02 / REPRESENT</text><text x="646" y="93">03 / ESTIMATE</text><text x="942" y="93">04 / EVALUATE</text></g>
+<g fill="#17384E" font-size="21" font-weight="bold"><text x="54" y="129">Daily OHLCV</text><text x="350" y="129">Causal features</text><text x="646" y="129">Purged folds</text><text x="942" y="129">Forecast quality</text></g>
+<g fill="#587383" font-size="14"><text x="54" y="161">Six instruments</text><text x="350" y="161">Information through t</text><text x="646" y="161">LightGBM + benchmarks</text><text x="942" y="161">MAE + Rank IC + inference</text></g>
+<g stroke="#6A8E9B" stroke-width="1.5" marker-end="url(#arrow)"><path d="M284 128H320"/><path d="M580 128H616"/><path d="M876 128H912"/></g>
+<text x="32" y="224" font-size="14" fill="#597481">Target: next five log returns · equity calendar: 252 days/year · Bitcoin calendar: 365 days/year</text>
+</g>
+</svg>

@@ -1,0 +1,16 @@
+{
+  "title": "Leakage-Aware Volatility Forecasting: BCT Research Companion",
+  "version": "0.1.0",
+  "upload_type": "software",
+  "description": "Public research companion with article metadata, reported summary tables, a preserved historical scaffold, and a tested reconstruction. Original input snapshots and populated original experiment outputs are not recovered; exact numerical reproduction is pending.",
+  "creators": [
+    {"name": "Javadzadeh, Seyed Reza", "affiliation": "Shahrood University of Technology"},
+    {"name": "Siahkarzadeh, Ali Mohammad", "affiliation": "Shahrood University of Technology"}
+  ],
+  "keywords": ["volatility forecasting", "LightGBM", "GARCH", "walk-forward validation", "reproducibility", "business risk management"],
+  "license": "MIT",
+  "access_right": "open",
+  "related_identifiers": [
+    {"identifier": "10.56632/bct.2026.5201", "scheme": "doi", "relation": "isSupplementTo"}
+  ]
+}

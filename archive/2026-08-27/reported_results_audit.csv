@@ -1,0 +1,8 @@
+asset,mae_lightgbm,mae_garch,mae_naive,reported_reduction_garch_pct,recomputed_reduction_garch_pct,reported_reduction_naive_pct,recomputed_reduction_naive_pct,status
+SPY,0.0596,0.1428,0.0896,58.2,58.3,33.5,33.5,consistent_with_rounding
+AAPL,0.1005,0.2447,0.1367,58.9,58.9,26.5,26.5,consistent
+MSFT,0.0957,0.2314,0.1409,58.6,58.6,32.1,32.1,consistent
+GOOGL,0.1046,0.2483,0.1586,57.9,57.9,34.1,34.0,consistent_with_rounding
+AMZN,0.1079,0.2738,0.1514,60.6,60.6,28.7,28.7,consistent
+BTC-USD,0.2088,0.4503,0.2935,53.6,53.6,28.8,28.9,consistent_with_rounding
+AVERAGE,,, ,58.0,57.99,30.6,30.61,arithmetically_verified_only
